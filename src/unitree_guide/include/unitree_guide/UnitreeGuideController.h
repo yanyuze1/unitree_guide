@@ -159,6 +159,10 @@ namespace unitree_guide_controller {
         rclcpp::Publisher<geometry_msgs::msg::Vector3Stamped>::SharedPtr balance_torque_error_pub_;
         rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr balance_normal_force_pub_;
         rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr balance_min_constraint_margin_pub_;
+        rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr balance_contact_pub_;
+        rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr balance_rot_matrix_pub_;
+        rclcpp::Publisher<std_msgs::msg::Float64MultiArray>::SharedPtr balance_feet_pos_2_body_pub_;
+
 
         rclcpp::Publisher<geometry_msgs::msg::Vector3Stamped>::SharedPtr estimator_position_pub_;
         rclcpp::Publisher<geometry_msgs::msg::Vector3Stamped>::SharedPtr estimator_velocity_pub_;
@@ -210,6 +214,7 @@ namespace unitree_guide_controller {
         rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr trotting_dyaw_cmd_pub_;
         rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr trotting_dyaw_est_pub_;
         rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr trotting_wave_status_pub_;
+
 
         void publishDebugTopics(const rclcpp::Time &time);
 

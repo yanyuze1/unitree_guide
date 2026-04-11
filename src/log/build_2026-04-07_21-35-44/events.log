@@ -1,0 +1,1028 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (-) JobUnselected: {'identifier': 'go2_description'}
+[0.000415] (-) JobUnselected: {'identifier': 'hardware_unitree_mujoco'}
+[0.000524] (control_input_msgs) JobQueued: {'identifier': 'control_input_msgs', 'dependencies': OrderedDict()}
+[0.000550] (controller_common) JobQueued: {'identifier': 'controller_common', 'dependencies': OrderedDict([('control_input_msgs', '/tmp/unitree_plotjuggler_install')])}
+[0.000612] (unitree_guide) JobQueued: {'identifier': 'unitree_guide', 'dependencies': OrderedDict([('control_input_msgs', '/tmp/unitree_plotjuggler_install'), ('controller_common', '/tmp/unitree_plotjuggler_install')])}
+[0.000638] (control_input_msgs) JobStarted: {'identifier': 'control_input_msgs'}
+[0.005553] (control_input_msgs) JobProgress: {'identifier': 'control_input_msgs', 'progress': 'cmake'}
+[0.005874] (control_input_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs', '-DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install'], 'cwd': '/tmp/unitree_plotjuggler_build/control_input_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64:'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/control_input_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch::/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[0.044621] (control_input_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.091528] (control_input_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.096446] (control_input_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099795] (-) TimerEvent: {}
+[0.148611] (control_input_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152743] (control_input_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.152903] (control_input_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153083] (control_input_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.154872] (control_input_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199918] (-) TimerEvent: {}
+[0.215074] (control_input_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.219434] (control_input_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.219537] (control_input_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.219798] (control_input_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.221710] (control_input_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.223088] (control_input_msgs) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.299982] (-) TimerEvent: {}
+[0.400148] (-) TimerEvent: {}
+[0.471039] (control_input_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500230] (-) TimerEvent: {}
+[0.514925] (control_input_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.520696] (control_input_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.571805] (control_input_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600401] (-) TimerEvent: {}
+[0.700534] (-) TimerEvent: {}
+[0.755916] (control_input_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800639] (-) TimerEvent: {}
+[0.889704] (control_input_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900734] (-) TimerEvent: {}
+[1.000887] (-) TimerEvent: {}
+[1.062163] (control_input_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.080172] (control_input_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.081464] (control_input_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.098847] (control_input_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.098970] (control_input_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.099007] (control_input_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.099036] (control_input_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.100979] (-) TimerEvent: {}
+[1.116123] (control_input_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.139046] (control_input_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.152582] (control_input_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.158283] (control_input_msgs) StdoutLine: {'line': b'-- Build files have been written to: /tmp/unitree_plotjuggler_build/control_input_msgs\n'}
+[1.163395] (control_input_msgs) CommandEnded: {'returncode': 0}
+[1.163886] (control_input_msgs) JobProgress: {'identifier': 'control_input_msgs', 'progress': 'build'}
+[1.164325] (control_input_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/tmp/unitree_plotjuggler_build/control_input_msgs', '--', '-j20', '-l20'], 'cwd': '/tmp/unitree_plotjuggler_build/control_input_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64:'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/control_input_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch::/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[1.201117] (-) TimerEvent: {}
+[1.203251] (control_input_msgs) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[1.210710] (control_input_msgs) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[1.222567] (control_input_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_control_input_msgs\n'}
+[1.301190] (-) TimerEvent: {}
+[1.363886] (control_input_msgs) StdoutLine: {'line': b'[  6%] Built target control_input_msgs__cpp\n'}
+[1.364394] (control_input_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.370124] (control_input_msgs) StdoutLine: {'line': b'[  9%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.370297] (control_input_msgs) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/control_input_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_input_msgs/msg/detail/inputs__functions.c.o\n'}
+[1.372388] (control_input_msgs) StdoutLine: {'line': b'[ 19%] Generating C++ introspection for ROS interfaces\n'}
+[1.372517] (control_input_msgs) StdoutLine: {'line': b'[ 19%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.374749] (control_input_msgs) StdoutLine: {'line': b'creating control_input_msgs.egg-info\n'}
+[1.374947] (control_input_msgs) StdoutLine: {'line': b'writing control_input_msgs.egg-info/PKG-INFO\n'}
+[1.375137] (control_input_msgs) StdoutLine: {'line': b'writing dependency_links to control_input_msgs.egg-info/dependency_links.txt\n'}
+[1.375279] (control_input_msgs) StdoutLine: {'line': b'writing top-level names to control_input_msgs.egg-info/top_level.txt\n'}
+[1.375357] (control_input_msgs) StdoutLine: {'line': b"writing manifest file 'control_input_msgs.egg-info/SOURCES.txt'\n"}
+[1.401280] (-) TimerEvent: {}
+[1.407077] (control_input_msgs) StdoutLine: {'line': b"reading manifest file 'control_input_msgs.egg-info/SOURCES.txt'\n"}
+[1.407559] (control_input_msgs) StdoutLine: {'line': b"writing manifest file 'control_input_msgs.egg-info/SOURCES.txt'\n"}
+[1.428762] (control_input_msgs) StdoutLine: {'line': b'[ 22%] Linking C shared library libcontrol_input_msgs__rosidl_generator_c.so\n'}
+[1.428935] (control_input_msgs) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_control_input_msgs_egg\n'}
+[1.456545] (control_input_msgs) StdoutLine: {'line': b'[ 22%] Built target control_input_msgs__rosidl_generator_c\n'}
+[1.464735] (control_input_msgs) StdoutLine: {'line': b'[ 25%] Generating C introspection for ROS interfaces\n'}
+[1.465912] (control_input_msgs) StdoutLine: {'line': b'[ 32%] Generating C type support for eProsima Fast-RTPS\n'}
+[1.466025] (control_input_msgs) StdoutLine: {'line': b'[ 32%] Generating C type support dispatch for ROS interfaces\n'}
+[1.501381] (-) TimerEvent: {}
+[1.514662] (control_input_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/control_input_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_input_msgs/msg/inputs__type_support.cpp.o\n'}
+[1.522288] (control_input_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/control_input_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_input_msgs/msg/detail/dds_fastrtps/inputs__type_support.cpp.o\n'}
+[1.528124] (control_input_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/control_input_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_input_msgs/msg/detail/inputs__type_support.cpp.o\n'}
+[1.601460] (-) TimerEvent: {}
+[1.617053] (control_input_msgs) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/control_input_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_input_msgs/msg/inputs__type_support.cpp.o\n'}
+[1.619827] (control_input_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/control_input_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_input_msgs/msg/detail/inputs__type_support.c.o\n'}
+[1.625178] (control_input_msgs) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/control_input_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_input_msgs/msg/detail/inputs__type_support_c.cpp.o\n'}
+[1.643062] (control_input_msgs) StdoutLine: {'line': b'[ 54%] Linking CXX shared library libcontrol_input_msgs__rosidl_typesupport_c.so\n'}
+[1.649635] (control_input_msgs) StdoutLine: {'line': b'[ 58%] Linking C shared library libcontrol_input_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.661656] (control_input_msgs) StdoutLine: {'line': b'[ 61%] Linking CXX shared library libcontrol_input_msgs__rosidl_typesupport_cpp.so\n'}
+[1.676273] (control_input_msgs) StdoutLine: {'line': b'[ 61%] Built target control_input_msgs__rosidl_typesupport_introspection_c\n'}
+[1.679099] (control_input_msgs) StdoutLine: {'line': b'[ 61%] Built target control_input_msgs__rosidl_typesupport_c\n'}
+[1.692596] (control_input_msgs) StdoutLine: {'line': b'[ 61%] Built target control_input_msgs__rosidl_typesupport_cpp\n'}
+[1.701558] (-) TimerEvent: {}
+[1.735900] (control_input_msgs) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libcontrol_input_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.767584] (control_input_msgs) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libcontrol_input_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.785832] (control_input_msgs) StdoutLine: {'line': b'[ 67%] Built target control_input_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.798704] (control_input_msgs) StdoutLine: {'line': b'[ 67%] Built target control_input_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.801621] (-) TimerEvent: {}
+[1.808575] (control_input_msgs) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libcontrol_input_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.860493] (control_input_msgs) StdoutLine: {'line': b'[ 70%] Built target control_input_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.875587] (control_input_msgs) StdoutLine: {'line': b'[ 70%] Built target control_input_msgs\n'}
+[1.889996] (control_input_msgs) StdoutLine: {'line': b'[ 74%] Generating Python code for ROS interfaces\n'}
+[1.901706] (-) TimerEvent: {}
+[2.001842] (-) TimerEvent: {}
+[2.067202] (control_input_msgs) StdoutLine: {'line': b'[ 74%] Built target control_input_msgs__py\n'}
+[2.081847] (control_input_msgs) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/control_input_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_input_msgs/msg/_inputs_s.c.o\n'}
+[2.101982] (-) TimerEvent: {}
+[2.139744] (control_input_msgs) StdoutLine: {'line': b'[ 80%] Linking C shared library rosidl_generator_py/control_input_msgs/libcontrol_input_msgs__rosidl_generator_py.so\n'}
+[2.173446] (control_input_msgs) StdoutLine: {'line': b'[ 80%] Built target control_input_msgs__rosidl_generator_py\n'}
+[2.189295] (control_input_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/control_input_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[2.189434] (control_input_msgs) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/control_input_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[2.189613] (control_input_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/control_input_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[2.202021] (-) TimerEvent: {}
+[2.241790] (control_input_msgs) StdoutLine: {'line': b'[ 93%] Linking C shared library rosidl_generator_py/control_input_msgs/control_input_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.242738] (control_input_msgs) StdoutLine: {'line': b'[ 96%] Linking C shared library rosidl_generator_py/control_input_msgs/control_input_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.266685] (control_input_msgs) StdoutLine: {'line': b'[ 96%] Built target control_input_msgs__rosidl_typesupport_c__pyext\n'}
+[2.267697] (control_input_msgs) StdoutLine: {'line': b'[ 96%] Built target control_input_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.269863] (control_input_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/control_input_msgs/control_input_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.295005] (control_input_msgs) StdoutLine: {'line': b'[100%] Built target control_input_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.302091] (-) TimerEvent: {}
+[2.302849] (control_input_msgs) CommandEnded: {'returncode': 0}
+[2.303458] (control_input_msgs) JobProgress: {'identifier': 'control_input_msgs', 'progress': 'install'}
+[2.310116] (control_input_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/tmp/unitree_plotjuggler_build/control_input_msgs'], 'cwd': '/tmp/unitree_plotjuggler_build/control_input_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64:'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/control_input_msgs'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch::/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[2.317747] (control_input_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.317938] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/rosidl_interfaces/control_input_msgs\n'}
+[2.317984] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.318018] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.318224] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.318309] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__functions.c\n'}
+[2.318348] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__functions.h\n'}
+[2.318600] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__struct.h\n'}
+[2.318670] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__type_support.h\n'}
+[2.318778] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/inputs.h\n'}
+[2.318829] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.319002] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/library_path.sh\n'}
+[2.319065] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/library_path.dsv\n'}
+[2.319232] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_generator_c.so\n'}
+[2.319299] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_generator_c.so" to ""\n'}
+[2.319337] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.319402] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.319598] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.319651] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.319759] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__rosidl_typesupport_fastrtps_c.h\n'}
+[2.319878] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.320103] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.320218] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.320252] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.320281] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.320309] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.320340] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__rosidl_typesupport_introspection_c.h\n'}
+[2.320481] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__type_support.c\n'}
+[2.320616] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.320644] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.320678] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_c.so\n'}
+[2.320709] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.320746] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.320772] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.320804] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/inputs.hpp\n'}
+[2.320840] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.320868] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__traits.hpp\n'}
+[2.320896] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__struct.hpp\n'}
+[2.320931] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__type_support.hpp\n'}
+[2.320967] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__builder.hpp\n'}
+[2.320999] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.321034] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.321061] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.321092] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.321125] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.321152] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/dds_fastrtps\n'}
+[2.321188] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.321221] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.321248] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.321279] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs\n'}
+[2.321313] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg\n'}
+[2.321339] (control_input_msgs) StdoutLine: {'line': b'-- Up-to-date: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail\n'}
+[2.321374] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__type_support.cpp\n'}
+[2.321411] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/control_input_msgs/control_input_msgs/msg/detail/inputs__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.321443] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.321477] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.321506] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_cpp.so\n'}
+[2.321538] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.321572] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/pythonpath.sh\n'}
+[2.321598] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/pythonpath.dsv\n'}
+[2.321630] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info\n'}
+[2.321662] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.321691] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.321723] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.321756] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.321782] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs\n'}
+[2.321813] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.321847] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.321875] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.321903] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/libcontrol_input_msgs__rosidl_generator_py.so\n'}
+[2.321943] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.321975] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.322003] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg\n'}
+[2.322027] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg/_inputs_s.c\n'}
+[2.322053] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg/__init__.py\n'}
+[2.322079] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg/_inputs.py\n'}
+[2.322103] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/__init__.py\n'}
+[2.322129] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/_control_input_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.341724] (control_input_msgs) StdoutLine: {'line': b"Listing '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs'...\n"}
+[2.341823] (control_input_msgs) StdoutLine: {'line': b"Compiling '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/__init__.py'...\n"}
+[2.341855] (control_input_msgs) StdoutLine: {'line': b"Listing '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg'...\n"}
+[2.341885] (control_input_msgs) StdoutLine: {'line': b"Compiling '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg/__init__.py'...\n"}
+[2.341911] (control_input_msgs) StdoutLine: {'line': b"Compiling '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/msg/_inputs.py'...\n"}
+[2.344969] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.345155] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.345194] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.345321] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.345356] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.345452] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages/control_input_msgs/control_input_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.345558] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_generator_py.so\n'}
+[2.345700] (control_input_msgs) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontrol_input_msgs__rosidl_generator_py.so" to ""\n'}
+[2.345769] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/msg/Inputs.idl\n'}
+[2.345850] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/msg/Inputs.msg\n'}
+[2.345964] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/package_run_dependencies/control_input_msgs\n'}
+[2.346063] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/parent_prefix_path/control_input_msgs\n'}
+[2.346146] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/ament_prefix_path.sh\n'}
+[2.346222] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/ament_prefix_path.dsv\n'}
+[2.346358] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/path.sh\n'}
+[2.346491] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/environment/path.dsv\n'}
+[2.346565] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/local_setup.bash\n'}
+[2.346628] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/local_setup.sh\n'}
+[2.346776] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/local_setup.zsh\n'}
+[2.346804] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/local_setup.dsv\n'}
+[2.346867] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/package.dsv\n'}
+[2.346897] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/packages/control_input_msgs\n'}
+[2.346957] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_generator_cExport.cmake\n'}
+[2.347021] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.347110] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.347191] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.347278] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.347358] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.347450] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.347529] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.347617] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.347704] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.347768] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.347836] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.347905] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.347979] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.348097] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.348159] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.348255] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/export_control_input_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.348286] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.348352] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.348417] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.348483] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.348545] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.348620] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.348691] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.348761] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgsConfig.cmake\n'}
+[2.348825] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake/control_input_msgsConfig-version.cmake\n'}
+[2.348902] (control_input_msgs) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/control_input_msgs/package.xml\n'}
+[2.350363] (control_input_msgs) CommandEnded: {'returncode': 0}
+[2.362374] (control_input_msgs) JobEnded: {'identifier': 'control_input_msgs', 'rc': 0}
+[2.363098] (controller_common) JobStarted: {'identifier': 'controller_common'}
+[2.402198] (-) TimerEvent: {}
+[2.502456] (-) TimerEvent: {}
+[2.602759] (-) TimerEvent: {}
+[2.703052] (-) TimerEvent: {}
+[2.803352] (-) TimerEvent: {}
+[2.903663] (-) TimerEvent: {}
+[3.003969] (-) TimerEvent: {}
+[3.104245] (-) TimerEvent: {}
+[3.204474] (-) TimerEvent: {}
+[3.304720] (-) TimerEvent: {}
+[3.404943] (-) TimerEvent: {}
+[3.505095] (-) TimerEvent: {}
+[3.605242] (-) TimerEvent: {}
+[3.705406] (-) TimerEvent: {}
+[3.805556] (-) TimerEvent: {}
+[3.905730] (-) TimerEvent: {}
+[4.005889] (-) TimerEvent: {}
+[4.106046] (-) TimerEvent: {}
+[4.206197] (-) TimerEvent: {}
+[4.306347] (-) TimerEvent: {}
+[4.406520] (-) TimerEvent: {}
+[4.506698] (-) TimerEvent: {}
+[4.606913] (-) TimerEvent: {}
+[4.707154] (-) TimerEvent: {}
+[4.807418] (-) TimerEvent: {}
+[4.907652] (-) TimerEvent: {}
+[5.007858] (-) TimerEvent: {}
+[5.108052] (-) TimerEvent: {}
+[5.208247] (-) TimerEvent: {}
+[5.308453] (-) TimerEvent: {}
+[5.408675] (-) TimerEvent: {}
+[5.508868] (-) TimerEvent: {}
+[5.609042] (-) TimerEvent: {}
+[5.709275] (-) TimerEvent: {}
+[5.809520] (-) TimerEvent: {}
+[5.909758] (-) TimerEvent: {}
+[6.010030] (-) TimerEvent: {}
+[6.110259] (-) TimerEvent: {}
+[6.210462] (-) TimerEvent: {}
+[6.310705] (-) TimerEvent: {}
+[6.410958] (-) TimerEvent: {}
+[6.511183] (-) TimerEvent: {}
+[6.611429] (-) TimerEvent: {}
+[6.711661] (-) TimerEvent: {}
+[6.811908] (-) TimerEvent: {}
+[6.912177] (-) TimerEvent: {}
+[7.012431] (-) TimerEvent: {}
+[7.112593] (-) TimerEvent: {}
+[7.212789] (-) TimerEvent: {}
+[7.313012] (-) TimerEvent: {}
+[7.413221] (-) TimerEvent: {}
+[7.513462] (-) TimerEvent: {}
+[7.613724] (-) TimerEvent: {}
+[7.713962] (-) TimerEvent: {}
+[7.814214] (-) TimerEvent: {}
+[7.914455] (-) TimerEvent: {}
+[8.014717] (-) TimerEvent: {}
+[8.115009] (-) TimerEvent: {}
+[8.215320] (-) TimerEvent: {}
+[8.315643] (-) TimerEvent: {}
+[8.415950] (-) TimerEvent: {}
+[8.516256] (-) TimerEvent: {}
+[8.616572] (-) TimerEvent: {}
+[8.716813] (-) TimerEvent: {}
+[8.817018] (-) TimerEvent: {}
+[8.917230] (-) TimerEvent: {}
+[9.017464] (-) TimerEvent: {}
+[9.117723] (-) TimerEvent: {}
+[9.217924] (-) TimerEvent: {}
+[9.318113] (-) TimerEvent: {}
+[9.418290] (-) TimerEvent: {}
+[9.518497] (-) TimerEvent: {}
+[9.618737] (-) TimerEvent: {}
+[9.719032] (-) TimerEvent: {}
+[9.819330] (-) TimerEvent: {}
+[9.919636] (-) TimerEvent: {}
+[10.019878] (-) TimerEvent: {}
+[10.120069] (-) TimerEvent: {}
+[10.220297] (-) TimerEvent: {}
+[10.320591] (-) TimerEvent: {}
+[10.420889] (-) TimerEvent: {}
+[10.521182] (-) TimerEvent: {}
+[10.621444] (-) TimerEvent: {}
+[10.721650] (-) TimerEvent: {}
+[10.821902] (-) TimerEvent: {}
+[10.922206] (-) TimerEvent: {}
+[11.022491] (-) TimerEvent: {}
+[11.122870] (-) TimerEvent: {}
+[11.223110] (-) TimerEvent: {}
+[11.323346] (-) TimerEvent: {}
+[11.423675] (-) TimerEvent: {}
+[11.523931] (-) TimerEvent: {}
+[11.624141] (-) TimerEvent: {}
+[11.724381] (-) TimerEvent: {}
+[11.824656] (-) TimerEvent: {}
+[11.924923] (-) TimerEvent: {}
+[12.025164] (-) TimerEvent: {}
+[12.125399] (-) TimerEvent: {}
+[12.225628] (-) TimerEvent: {}
+[12.325882] (-) TimerEvent: {}
+[12.426155] (-) TimerEvent: {}
+[12.526384] (-) TimerEvent: {}
+[12.626587] (-) TimerEvent: {}
+[12.726834] (-) TimerEvent: {}
+[12.827078] (-) TimerEvent: {}
+[12.927314] (-) TimerEvent: {}
+[13.027530] (-) TimerEvent: {}
+[13.127770] (-) TimerEvent: {}
+[13.228025] (-) TimerEvent: {}
+[13.328266] (-) TimerEvent: {}
+[13.428454] (-) TimerEvent: {}
+[13.528669] (-) TimerEvent: {}
+[13.628879] (-) TimerEvent: {}
+[13.729101] (-) TimerEvent: {}
+[13.829325] (-) TimerEvent: {}
+[13.929530] (-) TimerEvent: {}
+[14.029722] (-) TimerEvent: {}
+[14.129919] (-) TimerEvent: {}
+[14.230163] (-) TimerEvent: {}
+[14.330399] (-) TimerEvent: {}
+[14.430600] (-) TimerEvent: {}
+[14.530841] (-) TimerEvent: {}
+[14.631086] (-) TimerEvent: {}
+[14.731345] (-) TimerEvent: {}
+[14.831601] (-) TimerEvent: {}
+[14.931817] (-) TimerEvent: {}
+[15.032052] (-) TimerEvent: {}
+[15.132283] (-) TimerEvent: {}
+[15.232423] (-) TimerEvent: {}
+[15.332632] (-) TimerEvent: {}
+[15.432887] (-) TimerEvent: {}
+[15.533033] (-) TimerEvent: {}
+[15.633187] (-) TimerEvent: {}
+[15.733331] (-) TimerEvent: {}
+[15.833580] (-) TimerEvent: {}
+[15.933791] (-) TimerEvent: {}
+[16.034030] (-) TimerEvent: {}
+[16.134265] (-) TimerEvent: {}
+[16.234537] (-) TimerEvent: {}
+[16.334720] (-) TimerEvent: {}
+[16.434889] (-) TimerEvent: {}
+[16.535080] (-) TimerEvent: {}
+[16.635324] (-) TimerEvent: {}
+[16.735474] (-) TimerEvent: {}
+[16.835620] (-) TimerEvent: {}
+[16.935817] (-) TimerEvent: {}
+[17.036075] (-) TimerEvent: {}
+[17.136357] (-) TimerEvent: {}
+[17.236586] (-) TimerEvent: {}
+[17.336803] (-) TimerEvent: {}
+[17.437038] (-) TimerEvent: {}
+[17.537277] (-) TimerEvent: {}
+[17.637528] (-) TimerEvent: {}
+[17.737775] (-) TimerEvent: {}
+[17.838046] (-) TimerEvent: {}
+[17.938291] (-) TimerEvent: {}
+[18.038540] (-) TimerEvent: {}
+[18.138783] (-) TimerEvent: {}
+[18.239015] (-) TimerEvent: {}
+[18.339244] (-) TimerEvent: {}
+[18.439428] (-) TimerEvent: {}
+[18.539644] (-) TimerEvent: {}
+[18.639882] (-) TimerEvent: {}
+[18.740098] (-) TimerEvent: {}
+[18.840300] (-) TimerEvent: {}
+[18.940461] (-) TimerEvent: {}
+[19.040676] (-) TimerEvent: {}
+[19.140895] (-) TimerEvent: {}
+[19.241097] (-) TimerEvent: {}
+[19.341268] (-) TimerEvent: {}
+[19.441471] (-) TimerEvent: {}
+[19.541701] (-) TimerEvent: {}
+[19.641967] (-) TimerEvent: {}
+[19.742213] (-) TimerEvent: {}
+[19.842442] (-) TimerEvent: {}
+[19.942665] (-) TimerEvent: {}
+[20.042921] (-) TimerEvent: {}
+[20.143166] (-) TimerEvent: {}
+[20.243443] (-) TimerEvent: {}
+[20.343749] (-) TimerEvent: {}
+[20.443965] (-) TimerEvent: {}
+[20.544200] (-) TimerEvent: {}
+[20.644452] (-) TimerEvent: {}
+[20.744724] (-) TimerEvent: {}
+[20.845011] (-) TimerEvent: {}
+[20.945250] (-) TimerEvent: {}
+[21.045467] (-) TimerEvent: {}
+[21.145712] (-) TimerEvent: {}
+[21.245944] (-) TimerEvent: {}
+[21.346174] (-) TimerEvent: {}
+[21.446409] (-) TimerEvent: {}
+[21.546641] (-) TimerEvent: {}
+[21.646903] (-) TimerEvent: {}
+[21.747159] (-) TimerEvent: {}
+[21.847367] (-) TimerEvent: {}
+[21.947590] (-) TimerEvent: {}
+[22.047815] (-) TimerEvent: {}
+[22.148082] (-) TimerEvent: {}
+[22.248336] (-) TimerEvent: {}
+[22.348589] (-) TimerEvent: {}
+[22.448838] (-) TimerEvent: {}
+[22.549082] (-) TimerEvent: {}
+[22.649327] (-) TimerEvent: {}
+[22.749539] (-) TimerEvent: {}
+[22.849789] (-) TimerEvent: {}
+[22.950035] (-) TimerEvent: {}
+[23.050276] (-) TimerEvent: {}
+[23.150526] (-) TimerEvent: {}
+[23.250745] (-) TimerEvent: {}
+[23.350995] (-) TimerEvent: {}
+[23.451249] (-) TimerEvent: {}
+[23.551508] (-) TimerEvent: {}
+[23.651749] (-) TimerEvent: {}
+[23.752001] (-) TimerEvent: {}
+[23.852233] (-) TimerEvent: {}
+[23.952467] (-) TimerEvent: {}
+[24.052715] (-) TimerEvent: {}
+[24.152955] (-) TimerEvent: {}
+[24.253201] (-) TimerEvent: {}
+[24.353454] (-) TimerEvent: {}
+[24.453689] (-) TimerEvent: {}
+[24.553941] (-) TimerEvent: {}
+[24.654160] (-) TimerEvent: {}
+[24.754360] (-) TimerEvent: {}
+[24.854610] (-) TimerEvent: {}
+[24.954845] (-) TimerEvent: {}
+[25.055107] (-) TimerEvent: {}
+[25.155337] (-) TimerEvent: {}
+[25.255591] (-) TimerEvent: {}
+[25.355839] (-) TimerEvent: {}
+[25.456073] (-) TimerEvent: {}
+[25.556309] (-) TimerEvent: {}
+[25.656564] (-) TimerEvent: {}
+[25.756792] (-) TimerEvent: {}
+[25.857000] (-) TimerEvent: {}
+[25.957244] (-) TimerEvent: {}
+[26.057455] (-) TimerEvent: {}
+[26.157694] (-) TimerEvent: {}
+[26.257936] (-) TimerEvent: {}
+[26.358171] (-) TimerEvent: {}
+[26.458435] (-) TimerEvent: {}
+[26.558684] (-) TimerEvent: {}
+[26.658942] (-) TimerEvent: {}
+[26.759190] (-) TimerEvent: {}
+[26.859446] (-) TimerEvent: {}
+[26.959706] (-) TimerEvent: {}
+[27.059955] (-) TimerEvent: {}
+[27.160213] (-) TimerEvent: {}
+[27.260438] (-) TimerEvent: {}
+[27.360623] (-) TimerEvent: {}
+[27.460768] (-) TimerEvent: {}
+[27.560955] (-) TimerEvent: {}
+[27.661188] (-) TimerEvent: {}
+[27.761451] (-) TimerEvent: {}
+[27.861688] (-) TimerEvent: {}
+[27.961936] (-) TimerEvent: {}
+[28.062148] (-) TimerEvent: {}
+[28.162360] (-) TimerEvent: {}
+[28.262626] (-) TimerEvent: {}
+[28.362887] (-) TimerEvent: {}
+[28.463189] (-) TimerEvent: {}
+[28.563482] (-) TimerEvent: {}
+[28.663791] (-) TimerEvent: {}
+[28.764092] (-) TimerEvent: {}
+[28.864400] (-) TimerEvent: {}
+[28.964688] (-) TimerEvent: {}
+[29.064963] (-) TimerEvent: {}
+[29.165278] (-) TimerEvent: {}
+[29.265581] (-) TimerEvent: {}
+[29.365874] (-) TimerEvent: {}
+[29.466174] (-) TimerEvent: {}
+[29.566479] (-) TimerEvent: {}
+[29.666750] (-) TimerEvent: {}
+[29.767018] (-) TimerEvent: {}
+[29.867318] (-) TimerEvent: {}
+[29.967631] (-) TimerEvent: {}
+[30.067909] (-) TimerEvent: {}
+[30.168214] (-) TimerEvent: {}
+[30.268481] (-) TimerEvent: {}
+[30.368754] (-) TimerEvent: {}
+[30.469028] (-) TimerEvent: {}
+[30.569322] (-) TimerEvent: {}
+[30.669613] (-) TimerEvent: {}
+[30.769905] (-) TimerEvent: {}
+[30.870189] (-) TimerEvent: {}
+[30.970465] (-) TimerEvent: {}
+[31.070745] (-) TimerEvent: {}
+[31.171045] (-) TimerEvent: {}
+[31.271364] (-) TimerEvent: {}
+[31.371663] (-) TimerEvent: {}
+[31.471954] (-) TimerEvent: {}
+[31.572229] (-) TimerEvent: {}
+[31.672432] (-) TimerEvent: {}
+[31.772609] (-) TimerEvent: {}
+[31.872839] (-) TimerEvent: {}
+[31.973139] (-) TimerEvent: {}
+[32.073448] (-) TimerEvent: {}
+[32.173738] (-) TimerEvent: {}
+[32.273967] (-) TimerEvent: {}
+[32.374291] (-) TimerEvent: {}
+[32.393767] (controller_common) JobProgress: {'identifier': 'controller_common', 'progress': 'cmake'}
+[32.394839] (controller_common) Command: {'cmd': ['/usr/bin/cmake', '/home/huahua/project/Unitree_gudie_ros2/src/controller_common', '-DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install'], 'cwd': '/tmp/unitree_plotjuggler_build/controller_common', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/controller_common'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[32.470269] (controller_common) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[32.474407] (-) TimerEvent: {}
+[32.516578] (controller_common) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[32.521847] (controller_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.574503] (-) TimerEvent: {}
+[32.576956] (controller_common) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.583468] (controller_common) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.583746] (controller_common) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.583947] (controller_common) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.586376] (controller_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.645669] (controller_common) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[32.652940] (controller_common) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[32.653260] (controller_common) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[32.653424] (controller_common) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[32.655458] (controller_common) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[32.674587] (-) TimerEvent: {}
+[32.774748] (-) TimerEvent: {}
+[32.874957] (-) TimerEvent: {}
+[32.898854] (controller_common) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[32.962037] (controller_common) StdoutLine: {'line': b'-- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[32.975044] (-) TimerEvent: {}
+[32.997816] (controller_common) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[33.001337] (controller_common) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[33.006938] (controller_common) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[33.014591] (controller_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.024952] (controller_common) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.075225] (-) TimerEvent: {}
+[33.151789] (controller_common) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[33.153639] (controller_common) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[33.170105] (controller_common) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[33.175310] (-) TimerEvent: {}
+[33.222838] (controller_common) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[33.225648] (controller_common) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[33.236175] (controller_common) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[33.238227] (controller_common) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[33.244282] (controller_common) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[33.252394] (controller_common) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[33.261143] (controller_common) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[33.275408] (-) TimerEvent: {}
+[33.317248] (controller_common) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[33.317404] (controller_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[33.375502] (-) TimerEvent: {}
+[33.379755] (controller_common) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[33.380479] (controller_common) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[33.409671] (controller_common) StdoutLine: {'line': b'-- Found control_input_msgs: 0.0.0 (/tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake)\n'}
+[33.458639] (controller_common) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.466398] (controller_common) StdoutLine: {'line': b'-- Generating done\n'}
+[33.469146] (controller_common) StdoutLine: {'line': b'-- Build files have been written to: /tmp/unitree_plotjuggler_build/controller_common\n'}
+[33.475617] (-) TimerEvent: {}
+[33.475780] (controller_common) CommandEnded: {'returncode': 0}
+[33.476155] (controller_common) JobProgress: {'identifier': 'controller_common', 'progress': 'build'}
+[33.476327] (controller_common) Command: {'cmd': ['/usr/bin/cmake', '--build', '/tmp/unitree_plotjuggler_build/controller_common', '--', '-j20', '-l20'], 'cwd': '/tmp/unitree_plotjuggler_build/controller_common', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/controller_common'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[33.513784] (controller_common) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/BaseFixedStand.cpp.o\n'}
+[33.515701] (controller_common) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/StatePassive.cpp.o\n'}
+[33.515925] (controller_common) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/StateFixedDown.cpp.o\n'}
+[33.575703] (-) TimerEvent: {}
+[33.675880] (-) TimerEvent: {}
+[33.776036] (-) TimerEvent: {}
+[33.876198] (-) TimerEvent: {}
+[33.976351] (-) TimerEvent: {}
+[34.003479] (controller_common) StdoutLine: {'line': b'[100%] Linking CXX shared library libcontroller_common.so\n'}
+[34.076450] (-) TimerEvent: {}
+[34.118476] (controller_common) StdoutLine: {'line': b'[100%] Built target controller_common\n'}
+[34.125394] (controller_common) CommandEnded: {'returncode': 0}
+[34.125832] (controller_common) JobProgress: {'identifier': 'controller_common', 'progress': 'install'}
+[34.126122] (controller_common) Command: {'cmd': ['/usr/bin/cmake', '--install', '/tmp/unitree_plotjuggler_build/controller_common'], 'cwd': '/tmp/unitree_plotjuggler_build/controller_common', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/controller_common'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[34.133116] (controller_common) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[34.133368] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common\n'}
+[34.133445] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common\n'}
+[34.133475] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/CtrlInterfaces.h\n'}
+[34.133503] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common\n'}
+[34.133564] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/mathTools.h\n'}
+[34.133600] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/enumClass.h\n'}
+[34.133628] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/mathTypes.h\n'}
+[34.133696] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM\n'}
+[34.133819] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/StatePassive.h\n'}
+[34.133917] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/StateFixedDown.h\n'}
+[34.134010] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/BaseFixedStand.h\n'}
+[34.134128] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/FSMState.h\n'}
+[34.134168] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/libcontroller_common.so\n'}
+[34.134282] (controller_common) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontroller_common.so" to ""\n'}
+[34.134570] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/library_path.sh\n'}
+[34.134645] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/library_path.dsv\n'}
+[34.134689] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/package_run_dependencies/controller_common\n'}
+[34.134730] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/parent_prefix_path/controller_common\n'}
+[34.134763] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/ament_prefix_path.sh\n'}
+[34.134803] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/ament_prefix_path.dsv\n'}
+[34.134845] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/path.sh\n'}
+[34.134888] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/path.dsv\n'}
+[34.134929] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.bash\n'}
+[34.134971] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.sh\n'}
+[34.135014] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.zsh\n'}
+[34.135056] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.dsv\n'}
+[34.135098] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/package.dsv\n'}
+[34.135139] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/packages/controller_common\n'}
+[34.135181] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/export_controller_commonExport.cmake\n'}
+[34.135222] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/export_controller_commonExport-release.cmake\n'}
+[34.135267] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[34.135340] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/controller_commonConfig.cmake\n'}
+[34.135450] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/controller_commonConfig-version.cmake\n'}
+[34.135593] (controller_common) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/package.xml\n'}
+[34.136095] (controller_common) CommandEnded: {'returncode': 0}
+[34.144447] (controller_common) JobEnded: {'identifier': 'controller_common', 'rc': 0}
+[34.145183] (unitree_guide) JobStarted: {'identifier': 'unitree_guide'}
+[34.152248] (unitree_guide) JobProgress: {'identifier': 'unitree_guide', 'progress': 'cmake'}
+[34.152506] (unitree_guide) Command: {'cmd': ['/usr/bin/cmake', '/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide', '-DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install'], 'cwd': '/tmp/unitree_plotjuggler_build/unitree_guide', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/unitree_guide'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[34.176571] (-) TimerEvent: {}
+[34.194929] (unitree_guide) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[34.240486] (unitree_guide) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[34.246713] (unitree_guide) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.276664] (-) TimerEvent: {}
+[34.297012] (unitree_guide) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.301124] (unitree_guide) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[34.301279] (unitree_guide) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.301462] (unitree_guide) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.303192] (unitree_guide) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.358771] (unitree_guide) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[34.365771] (unitree_guide) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[34.365966] (unitree_guide) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[34.366403] (unitree_guide) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[34.369567] (unitree_guide) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[34.376743] (-) TimerEvent: {}
+[34.476879] (-) TimerEvent: {}
+[34.577048] (-) TimerEvent: {}
+[34.618856] (unitree_guide) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[34.677137] (-) TimerEvent: {}
+[34.680908] (unitree_guide) StdoutLine: {'line': b'-- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[34.711917] (unitree_guide) StdoutLine: {'line': b'-- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[34.733765] (unitree_guide) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[34.737549] (unitree_guide) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[34.743485] (unitree_guide) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[34.751548] (unitree_guide) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[34.760030] (unitree_guide) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[34.777222] (-) TimerEvent: {}
+[34.870181] (unitree_guide) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[34.872039] (unitree_guide) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[34.877323] (-) TimerEvent: {}
+[34.888459] (unitree_guide) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[34.932544] (unitree_guide) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[34.934252] (unitree_guide) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[34.946047] (unitree_guide) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[34.948074] (unitree_guide) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[34.953755] (unitree_guide) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[34.963146] (unitree_guide) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[34.969034] (unitree_guide) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[34.977413] (-) TimerEvent: {}
+[35.050301] (unitree_guide) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[35.050473] (unitree_guide) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[35.077514] (-) TimerEvent: {}
+[35.110955] (unitree_guide) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[35.111794] (unitree_guide) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[35.143527] (unitree_guide) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.1 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[35.152378] (unitree_guide) StdoutLine: {'line': b'-- Found control_input_msgs: 0.0.0 (/tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake)\n'}
+[35.157428] (unitree_guide) StdoutLine: {'line': b'-- Found controller_common: 0.0.0 (/tmp/unitree_plotjuggler_install/share/controller_common/cmake)\n'}
+[35.158980] (unitree_guide) StdoutLine: {'line': b'-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)\n'}
+[35.167853] (unitree_guide) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[35.168747] (unitree_guide) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[35.168859] (unitree_guide) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[35.173821] (unitree_guide) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[35.177592] (-) TimerEvent: {}
+[35.229407] (unitree_guide) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[35.229692] (unitree_guide) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/FSM>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/control>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/gait>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/robot>;/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src\n'}
+[35.229793] (unitree_guide) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[35.230245] (unitree_guide) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[35.230871] (unitree_guide) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[35.231328] (unitree_guide) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[35.232691] (unitree_guide) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[35.232794] (unitree_guide) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[35.233321] (unitree_guide) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[35.234319] (unitree_guide) StdoutLine: {'line': b'-- Configuring done\n'}
+[35.243346] (unitree_guide) StdoutLine: {'line': b'-- Generating done\n'}
+[35.246517] (unitree_guide) StdoutLine: {'line': b'-- Build files have been written to: /tmp/unitree_plotjuggler_build/unitree_guide\n'}
+[35.253566] (unitree_guide) CommandEnded: {'returncode': 0}
+[35.254410] (unitree_guide) JobProgress: {'identifier': 'unitree_guide', 'progress': 'build'}
+[35.254433] (unitree_guide) Command: {'cmd': ['/usr/bin/cmake', '--build', '/tmp/unitree_plotjuggler_build/unitree_guide', '--', '-j20', '-l20'], 'cwd': '/tmp/unitree_plotjuggler_build/unitree_guide', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/unitree_guide'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[35.277682] (-) TimerEvent: {}
+[35.294857] (unitree_guide) StdoutLine: {'line': b'[  5%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateFixedStand.cpp.o\n'}
+[35.296833] (unitree_guide) StdoutLine: {'line': b'[ 11%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateSwingTest.cpp.o\n'}
+[35.297093] (unitree_guide) StdoutLine: {'line': b'[ 23%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateFreeStand.cpp.o\n'}
+[35.297217] (unitree_guide) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateTrotting.cpp.o\n'}
+[35.297313] (unitree_guide) StdoutLine: {'line': b'[ 17%] Building CXX object CMakeFiles/unitree_guide.dir/src/UnitreeGuideController.cpp.o\n'}
+[35.299580] (unitree_guide) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/BalanceCtrl.cpp.o\n'}
+[35.299813] (unitree_guide) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/LowPassFilter.cpp.o\n'}
+[35.300784] (unitree_guide) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/unitree_guide.dir/src/robot/QuadrupedRobot.cpp.o\n'}
+[35.301478] (unitree_guide) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/unitree_guide.dir/src/robot/RobotLeg.cpp.o\n'}
+[35.301704] (unitree_guide) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/unitree_guide.dir/src/quadProgpp/QuadProg++.cc.o\n'}
+[35.301861] (unitree_guide) StdoutLine: {'line': b'[ 64%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/WaveGenerator.cpp.o\n'}
+[35.302023] (unitree_guide) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/Estimator.cpp.o\n'}
+[35.302162] (unitree_guide) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateBalanceTest.cpp.o\n'}
+[35.302297] (unitree_guide) StdoutLine: {'line': b'[ 82%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/GaitGenerator.cpp.o\n'}
+[35.302456] (unitree_guide) StdoutLine: {'line': b'[ 94%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/FeetEndCalc.cpp.o\n'}
+[35.302605] (unitree_guide) StdoutLine: {'line': b'[ 94%] Building CXX object CMakeFiles/unitree_guide.dir/src/quadProgpp/Array.cc.o\n'}
+[35.377808] (-) TimerEvent: {}
+[35.480430] (-) TimerEvent: {}
+[35.580617] (-) TimerEvent: {}
+[35.680992] (-) TimerEvent: {}
+[35.781437] (-) TimerEvent: {}
+[35.881722] (-) TimerEvent: {}
+[35.983144] (-) TimerEvent: {}
+[36.083610] (-) TimerEvent: {}
+[36.183897] (-) TimerEvent: {}
+[36.284080] (-) TimerEvent: {}
+[36.384272] (-) TimerEvent: {}
+[36.484428] (-) TimerEvent: {}
+[36.584617] (-) TimerEvent: {}
+[36.684805] (-) TimerEvent: {}
+[36.751891] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:\n'}
+[36.752158] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[36.752248] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[36.752320] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[36.752398] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[36.752473] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[36.752541] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[36.752612] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[36.752674] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:\n'}
+[36.752736] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[36.752799] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[36.752872] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[36.784926] (-) TimerEvent: {}
+[36.831991] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:\n'}
+[36.832214] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[36.832298] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[36.832380] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[36.832458] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[36.832525] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[36.832785] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[36.832872] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[36.832942] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:\n'}
+[36.833007] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[36.833073] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[36.833138] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[36.885003] (-) TimerEvent: {}
+[36.984188] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:\n'}
+[36.984341] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[36.984426] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[36.984471] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[36.984513] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[36.984556] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[36.984597] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[36.984633] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[36.984673] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:\n'}
+[36.984714] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[36.984755] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[36.984798] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[36.985081] (-) TimerEvent: {}
+[37.085220] (-) TimerEvent: {}
+[37.106700] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:\n'}
+[37.106891] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[37.106957] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[37.107029] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[37.107081] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[37.107132] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[37.107183] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[37.107232] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[37.107280] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:\n'}
+[37.107328] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[37.107384] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[37.107444] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[37.185321] (-) TimerEvent: {}
+[37.285509] (-) TimerEvent: {}
+[37.385686] (-) TimerEvent: {}
+[37.485886] (-) TimerEvent: {}
+[37.586105] (-) TimerEvent: {}
+[37.686310] (-) TimerEvent: {}
+[37.786528] (-) TimerEvent: {}
+[37.886736] (-) TimerEvent: {}
+[37.986927] (-) TimerEvent: {}
+[38.087112] (-) TimerEvent: {}
+[38.187291] (-) TimerEvent: {}
+[38.287434] (-) TimerEvent: {}
+[38.387610] (-) TimerEvent: {}
+[38.487780] (-) TimerEvent: {}
+[38.587947] (-) TimerEvent: {}
+[38.688137] (-) TimerEvent: {}
+[38.788313] (-) TimerEvent: {}
+[38.888486] (-) TimerEvent: {}
+[38.988657] (-) TimerEvent: {}
+[39.088828] (-) TimerEvent: {}
+[39.092270] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:\n'}
+[39.092490] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[39.092573] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[39.092643] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[39.092707] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[39.092770] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[39.092834] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[39.092897] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[39.092959] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:\n'}
+[39.093020] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[39.093093] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[39.093158] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[39.127904] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:\n'}
+[39.128051] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor \xe2\x80\x98AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)\xe2\x80\x99:\n'}
+[39.128091] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: \xe2\x80\x98AvgCov::_valueName\xe2\x80\x99 will be initialized after [-Wreorder]\n'}
+[39.128134] (unitree_guide) StderrLine: {'line': b'  281 |     std::string _valueName;\n'}
+[39.128169] (unitree_guide) StderrLine: {'line': b'      |                 ^~~~~~~~~~\n'}
+[39.128197] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   \xe2\x80\x98bool AvgCov::_avgOnly\xe2\x80\x99 [-Wreorder]\n'}
+[39.128232] (unitree_guide) StderrLine: {'line': b'  275 |     bool _avgOnly;\n'}
+[39.128259] (unitree_guide) StderrLine: {'line': b'      |          ^~~~~~~~\n'}
+[39.128283] (unitree_guide) StderrLine: {'line': b'In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:\n'}
+[39.128309] (unitree_guide) StderrLine: {'line': b'/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]\n'}
+[39.128336] (unitree_guide) StderrLine: {'line': b'  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)\n'}
+[39.128362] (unitree_guide) StderrLine: {'line': b'      |     ^~~~~~\n'}
+[39.188941] (-) TimerEvent: {}
+[39.289101] (-) TimerEvent: {}
+[39.389272] (-) TimerEvent: {}
+[39.489418] (-) TimerEvent: {}
+[39.589573] (-) TimerEvent: {}
+[39.689723] (-) TimerEvent: {}
+[39.789879] (-) TimerEvent: {}
+[39.890016] (-) TimerEvent: {}
+[39.990210] (-) TimerEvent: {}
+[40.090407] (-) TimerEvent: {}
+[40.190629] (-) TimerEvent: {}
+[40.290817] (-) TimerEvent: {}
+[40.391014] (-) TimerEvent: {}
+[40.491208] (-) TimerEvent: {}
+[40.591412] (-) TimerEvent: {}
+[40.691615] (-) TimerEvent: {}
+[40.791810] (-) TimerEvent: {}
+[40.892004] (-) TimerEvent: {}
+[40.992197] (-) TimerEvent: {}
+[41.092396] (-) TimerEvent: {}
+[41.192577] (-) TimerEvent: {}
+[41.292788] (-) TimerEvent: {}
+[41.392972] (-) TimerEvent: {}
+[41.493163] (-) TimerEvent: {}
+[41.593432] (-) TimerEvent: {}
+[41.693621] (-) TimerEvent: {}
+[41.793809] (-) TimerEvent: {}
+[41.894005] (-) TimerEvent: {}
+[41.994199] (-) TimerEvent: {}
+[42.094396] (-) TimerEvent: {}
+[42.194581] (-) TimerEvent: {}
+[42.294796] (-) TimerEvent: {}
+[42.394996] (-) TimerEvent: {}
+[42.495182] (-) TimerEvent: {}
+[42.595361] (-) TimerEvent: {}
+[42.695562] (-) TimerEvent: {}
+[42.795751] (-) TimerEvent: {}
+[42.895956] (-) TimerEvent: {}
+[42.996151] (-) TimerEvent: {}
+[43.096340] (-) TimerEvent: {}
+[43.196532] (-) TimerEvent: {}
+[43.296730] (-) TimerEvent: {}
+[43.396925] (-) TimerEvent: {}
+[43.497111] (-) TimerEvent: {}
+[43.597303] (-) TimerEvent: {}
+[43.697494] (-) TimerEvent: {}
+[43.797709] (-) TimerEvent: {}
+[43.897885] (-) TimerEvent: {}
+[43.998046] (-) TimerEvent: {}
+[44.098195] (-) TimerEvent: {}
+[44.198362] (-) TimerEvent: {}
+[44.298517] (-) TimerEvent: {}
+[44.398685] (-) TimerEvent: {}
+[44.498835] (-) TimerEvent: {}
+[44.598985] (-) TimerEvent: {}
+[44.699138] (-) TimerEvent: {}
+[44.799280] (-) TimerEvent: {}
+[44.899443] (-) TimerEvent: {}
+[44.999600] (-) TimerEvent: {}
+[45.099770] (-) TimerEvent: {}
+[45.199937] (-) TimerEvent: {}
+[45.300089] (-) TimerEvent: {}
+[45.400262] (-) TimerEvent: {}
+[45.500411] (-) TimerEvent: {}
+[45.600571] (-) TimerEvent: {}
+[45.700752] (-) TimerEvent: {}
+[45.800925] (-) TimerEvent: {}
+[45.901089] (-) TimerEvent: {}
+[46.001241] (-) TimerEvent: {}
+[46.101392] (-) TimerEvent: {}
+[46.201546] (-) TimerEvent: {}
+[46.301693] (-) TimerEvent: {}
+[46.401860] (-) TimerEvent: {}
+[46.502010] (-) TimerEvent: {}
+[46.602157] (-) TimerEvent: {}
+[46.702337] (-) TimerEvent: {}
+[46.802498] (-) TimerEvent: {}
+[46.902644] (-) TimerEvent: {}
+[47.002812] (-) TimerEvent: {}
+[47.102995] (-) TimerEvent: {}
+[47.203142] (-) TimerEvent: {}
+[47.303296] (-) TimerEvent: {}
+[47.403452] (-) TimerEvent: {}
+[47.503600] (-) TimerEvent: {}
+[47.603782] (-) TimerEvent: {}
+[47.703977] (-) TimerEvent: {}
+[47.804142] (-) TimerEvent: {}
+[47.904303] (-) TimerEvent: {}
+[48.004432] (-) TimerEvent: {}
+[48.104599] (-) TimerEvent: {}
+[48.163269] (unitree_guide) StdoutLine: {'line': b'[100%] Linking CXX shared library libunitree_guide.so\n'}
+[48.204691] (-) TimerEvent: {}
+[48.302784] (unitree_guide) StdoutLine: {'line': b'[100%] Built target unitree_guide\n'}
+[48.304753] (-) TimerEvent: {}
+[48.309831] (unitree_guide) CommandEnded: {'returncode': 0}
+[48.310471] (unitree_guide) JobProgress: {'identifier': 'unitree_guide', 'progress': 'install'}
+[48.310675] (unitree_guide) Command: {'cmd': ['/usr/bin/cmake', '--install', '/tmp/unitree_plotjuggler_build/unitree_guide'], 'cwd': '/tmp/unitree_plotjuggler_build/unitree_guide', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/huahua'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('GZ_SIM_RESOURCE_PATH', '/home/huahua/project/ROS2-Gazebo-GO2/src/gazebo_sim/models'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'huahua'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","messagesFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705/nls.messages.json","corruptMarkerFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"9f249a5199ee038ca4a1295a328897d2.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/tcf.json","_cacheRoot":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn","_resolvedLanguagePackCoreLocation":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/b6a47e94e326b5c209d118cf0f994d6065585705","_corruptedFile":"/home/huahua/.config/Code/clp/9f249a5199ee038ca4a1295a328897d2.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64'), ('HOME', '/home/huahua'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('CYCLONEDDS_URI', 'file://~/project/ROS2-Gazebo-GO2/src/docker/cyclonedds.xml'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-6e9800fb-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '2077'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2355'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CONDA_ROOT', '/home/huahua/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3307'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'huahua'), ('JOURNAL_STREAM', '8:20951'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/openrobots/lib/pkgconfig:'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'huahua'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/huahua/.local/bin:/home/huahua/.codex/tmp/arg0/codex-arg0JBA0U4:/home/huahua/.local/bin:/usr/bin:/opt/openrobots/bin:/home/huahua/miniconda3/bin:/home/huahua/miniconda3/condabin:/usr/local/cuda-12.8/bin:/home/huahua/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/huahua/.vscode/extensions/openai.chatgpt-26.325.31654-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/huahua-TX-Gaming-FX608JP-FX608JP:@/tmp/.ICE-unix/2327,unix/huahua-TX-Gaming-FX608JP-FX608JP:/tmp/.ICE-unix/2327'), ('INVOCATION_ID', '2d5af69c368d4f7097914dcaaacc5c3b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/huahua/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019d681a-94b8-7aa3-803d-075f8f958078'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/tmp/unitree_plotjuggler_build/unitree_guide'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/huahua/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/huahua/.config/Code/CachedData/b6a47e94e326b5c209d118cf0f994d6065585705'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/openrobots/lib/python3.10/site-packages:'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble'), ('VSCODE_PID', '3307')]), 'shell': False}
+[48.316827] (unitree_guide) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[48.317034] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/unitree_guide.xml\n'}
+[48.317085] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide\n'}
+[48.317125] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide\n'}
+[48.317170] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/CtrlInterfaces.h\n'}
+[48.317206] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control\n'}
+[48.317264] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/LowPassFilter.h\n'}
+[48.317299] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/CtrlComponent.h\n'}
+[48.317493] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/BalanceCtrl.h\n'}
+[48.317607] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/Estimator.h\n'}
+[48.317666] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot\n'}
+[48.317729] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot/RobotLeg.h\n'}
+[48.317789] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot/QuadrupedRobot.h\n'}
+[48.317847] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/UnitreeGuideController.h\n'}
+[48.317920] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common\n'}
+[48.317950] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/mathTools.h\n'}
+[48.318015] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/enumClass.h\n'}
+[48.318128] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/DebugData.h\n'}
+[48.318221] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/mathTypes.h\n'}
+[48.318282] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait\n'}
+[48.318330] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/GaitGenerator.h\n'}
+[48.318384] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/FeetEndCalc.h\n'}
+[48.318427] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/WaveGenerator.h\n'}
+[48.318471] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM\n'}
+[48.318512] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StatePassive.h\n'}
+[48.318558] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFixedDown.h\n'}
+[48.318599] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/BaseFixedStand.h\n'}
+[48.318642] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/FSMState.h\n'}
+[48.318682] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateSwingTest.h\n'}
+[48.318724] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFreeStand.h\n'}
+[48.318767] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateTrotting.h\n'}
+[48.318809] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateBalanceTest.h\n'}
+[48.318853] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFixedStand.h\n'}
+[48.318894] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/lib/unitree_guide/libunitree_guide.so\n'}
+[48.319328] (unitree_guide) StdoutLine: {'line': b'-- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/unitree_guide/libunitree_guide.so" to ""\n'}
+[48.319468] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch\n'}
+[48.319552] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/mujoco.launch.py\n'}
+[48.319631] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/plotjuggler_debug.launch.py\n'}
+[48.319657] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__\n'}
+[48.319682] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__/plotjuggler_debug.launch.cpython-310.pyc\n'}
+[48.319747] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__/mujoco.launch.cpython-310.pyc\n'}
+[48.319847] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//config\n'}
+[48.319890] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//config/plotjuggler_trotting_yaw_debug_topics.md\n'}
+[48.319979] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/library_path.sh\n'}
+[48.320038] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/library_path.dsv\n'}
+[48.320095] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/package_run_dependencies/unitree_guide\n'}
+[48.320151] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/parent_prefix_path/unitree_guide\n'}
+[48.320207] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/ament_prefix_path.sh\n'}
+[48.320261] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/ament_prefix_path.dsv\n'}
+[48.320286] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/path.sh\n'}
+[48.320376] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/path.dsv\n'}
+[48.320496] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.bash\n'}
+[48.320612] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.sh\n'}
+[48.320674] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.zsh\n'}
+[48.320822] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.dsv\n'}
+[48.320879] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/package.dsv\n'}
+[48.320992] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/packages/unitree_guide\n'}
+[48.321198] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/unitree_guide\n'}
+[48.321252] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/export_unitree_guideExport.cmake\n'}
+[48.321352] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/export_unitree_guideExport-release.cmake\n'}
+[48.321544] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[48.321591] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[48.321633] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/unitree_guideConfig.cmake\n'}
+[48.321679] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/unitree_guideConfig-version.cmake\n'}
+[48.321758] (unitree_guide) StdoutLine: {'line': b'-- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/package.xml\n'}
+[48.323250] (unitree_guide) CommandEnded: {'returncode': 0}
+[48.335502] (unitree_guide) JobEnded: {'identifier': 'unitree_guide', 'rc': 0}
+[48.335939] (-) EventReactorShutdown: {}

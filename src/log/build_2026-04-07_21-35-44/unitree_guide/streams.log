@@ -1,0 +1,216 @@
+[0.008s] Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.152s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.156s] -- Detecting C compile features - done
+[0.158s] -- Detecting CXX compiler ABI info
+[0.214s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.474s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.536s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.567s] -- Found controller_interface: 2.52.2 (/opt/ros/humble/share/controller_interface/cmake)
+[0.589s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.598s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.606s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.725s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.727s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.743s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.787s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.789s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.801s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.809s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.818s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.824s] -- Looking for pthread.h
+[0.905s] -- Looking for pthread.h - found
+[0.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.966s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.967s] -- Found Threads: TRUE  
+[0.998s] -- Found realtime_tools: 2.14.1 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.007s] -- Found control_input_msgs: 0.0.0 (/tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake)
+[1.012s] -- Found controller_common: 0.0.0 (/tmp/unitree_plotjuggler_install/share/controller_common/cmake)
+[1.014s] -- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+[1.023s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.024s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.024s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.029s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.085s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/FSM>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/control>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/gait>;$<BUILD_INTERFACE:/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/robot>;/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src
+[1.085s] -- Configured cppcheck exclude dirs and/or files: 
+[1.085s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.086s] -- Added test 'lint_cmake' to check CMake code style
+[1.086s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.088s] -- Added test 'uncrustify' to check C / C++ code style
+[1.088s] -- Configured uncrustify additional arguments: 
+[1.088s] -- Added test 'xmllint' to check XML markup files
+[1.089s] -- Configuring done
+[1.098s] -- Generating done
+[1.101s] -- Build files have been written to: /tmp/unitree_plotjuggler_build/unitree_guide
+[1.109s] Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[1.109s] Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/unitree_guide -- -j20 -l20
+[1.150s] [  5%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateFixedStand.cpp.o
+[1.152s] [ 11%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateSwingTest.cpp.o
+[1.152s] [ 23%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateFreeStand.cpp.o
+[1.152s] [ 29%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateTrotting.cpp.o
+[1.152s] [ 17%] Building CXX object CMakeFiles/unitree_guide.dir/src/UnitreeGuideController.cpp.o
+[1.155s] [ 35%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/BalanceCtrl.cpp.o
+[1.155s] [ 47%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/LowPassFilter.cpp.o
+[1.156s] [ 47%] Building CXX object CMakeFiles/unitree_guide.dir/src/robot/QuadrupedRobot.cpp.o
+[1.156s] [ 52%] Building CXX object CMakeFiles/unitree_guide.dir/src/robot/RobotLeg.cpp.o
+[1.157s] [ 58%] Building CXX object CMakeFiles/unitree_guide.dir/src/quadProgpp/QuadProg++.cc.o
+[1.157s] [ 64%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/WaveGenerator.cpp.o
+[1.157s] [ 70%] Building CXX object CMakeFiles/unitree_guide.dir/src/control/Estimator.cpp.o
+[1.157s] [ 76%] Building CXX object CMakeFiles/unitree_guide.dir/src/FSM/StateBalanceTest.cpp.o
+[1.157s] [ 82%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/GaitGenerator.cpp.o
+[1.157s] [ 94%] Building CXX object CMakeFiles/unitree_guide.dir/src/gait/FeetEndCalc.cpp.o
+[1.158s] [ 94%] Building CXX object CMakeFiles/unitree_guide.dir/src/quadProgpp/Array.cc.o
+[2.607s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:
+[2.607s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[2.607s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[2.607s]   281 |     std::string _valueName;
+[2.607s]       |                 ^~~~~~~~~~
+[2.607s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[2.607s]   275 |     bool _avgOnly;
+[2.607s]       |          ^~~~~~~~
+[2.608s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:
+[2.608s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[2.608s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.608s]       |     ^~~~~~
+[2.687s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:
+[2.687s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[2.687s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[2.687s]   281 |     std::string _valueName;
+[2.687s]       |                 ^~~~~~~~~~
+[2.688s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[2.688s]   275 |     bool _avgOnly;
+[2.688s]       |          ^~~~~~~~
+[2.688s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:
+[2.688s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[2.688s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.688s]       |     ^~~~~~
+[2.839s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:
+[2.839s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[2.839s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[2.839s]   281 |     std::string _valueName;
+[2.839s]       |                 ^~~~~~~~~~
+[2.839s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[2.839s]   275 |     bool _avgOnly;
+[2.839s]       |          ^~~~~~~~
+[2.840s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:
+[2.840s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[2.840s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.840s]       |     ^~~~~~
+[2.962s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:
+[2.962s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[2.962s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[2.962s]   281 |     std::string _valueName;
+[2.962s]       |                 ^~~~~~~~~~
+[2.962s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[2.962s]   275 |     bool _avgOnly;
+[2.962s]       |          ^~~~~~~~
+[2.962s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:
+[2.962s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[2.962s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[2.962s]       |     ^~~~~~
+[4.947s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:
+[4.947s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[4.947s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[4.947s]   281 |     std::string _valueName;
+[4.948s]       |                 ^~~~~~~~~~
+[4.948s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[4.948s]   275 |     bool _avgOnly;
+[4.948s]       |          ^~~~~~~~
+[4.948s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:
+[4.948s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[4.948s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[4.948s]       |     ^~~~~~
+[4.983s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:
+[4.983s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+[4.983s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+[4.983s]   281 |     std::string _valueName;
+[4.983s]       |                 ^~~~~~~~~~
+[4.983s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+[4.983s]   275 |     bool _avgOnly;
+[4.983s]       |          ^~~~~~~~
+[4.983s] In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:
+[4.983s] /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+[4.983s]   249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+[4.983s]       |     ^~~~~~
+[14.018s] [100%] Linking CXX shared library libunitree_guide.so
+[14.158s] [100%] Built target unitree_guide
+[14.165s] Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/unitree_guide -- -j20 -l20
+[14.166s] Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/unitree_guide
+[14.172s] -- Install configuration: "Release"
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/unitree_guide.xml
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/CtrlInterfaces.h
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/LowPassFilter.h
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/CtrlComponent.h
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/BalanceCtrl.h
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/control/Estimator.h
+[14.172s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot/RobotLeg.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/robot/QuadrupedRobot.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/UnitreeGuideController.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/mathTools.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/enumClass.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/DebugData.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/common/mathTypes.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/GaitGenerator.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/FeetEndCalc.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/gait/WaveGenerator.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StatePassive.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFixedDown.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/BaseFixedStand.h
+[14.173s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/FSMState.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateSwingTest.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFreeStand.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateTrotting.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateBalanceTest.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/include/unitree_guide/unitree_guide/FSM/StateFixedStand.h
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/lib/unitree_guide/libunitree_guide.so
+[14.174s] -- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/unitree_guide/libunitree_guide.so" to ""
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/mujoco.launch.py
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/plotjuggler_debug.launch.py
+[14.174s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__/plotjuggler_debug.launch.cpython-310.pyc
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//launch/__pycache__/mujoco.launch.cpython-310.pyc
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//config
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide//config/plotjuggler_trotting_yaw_debug_topics.md
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/library_path.sh
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/library_path.dsv
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/package_run_dependencies/unitree_guide
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/parent_prefix_path/unitree_guide
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/ament_prefix_path.sh
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/ament_prefix_path.dsv
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/path.sh
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/environment/path.dsv
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.bash
+[14.175s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.sh
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.zsh
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/local_setup.dsv
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/package.dsv
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/packages/unitree_guide
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/controller_interface__pluginlib__plugin/unitree_guide
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/export_unitree_guideExport.cmake
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/export_unitree_guideExport-release.cmake
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/ament_cmake_export_targets-extras.cmake
+[14.176s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/unitree_guideConfig.cmake
+[14.177s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/cmake/unitree_guideConfig-version.cmake
+[14.177s] -- Installing: /tmp/unitree_plotjuggler_install/share/unitree_guide/package.xml
+[14.179s] Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/unitree_guide

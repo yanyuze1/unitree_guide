@@ -15,7 +15,7 @@ FeetEndCalc::FeetEndCalc(CtrlComponent &ctrl_component)
     // 落足点反馈控制增益
     k_x_ = 0.005;
     k_y_ = 0.005;
-    k_yaw_ = 0.015;
+    k_yaw_ = 0.010;
 }
 
 void FeetEndCalc::init() {
@@ -24,8 +24,8 @@ void FeetEndCalc::init() {
     t_swing_ = ctrl_component_.wave_generator_->get_t_swing();
 
     // 获取当前4条腿相对机器人body坐标系位置
-    Vec34 feet_pos_body = estimator_->getFeetPos2Body();
-    // Vec34 feet_pos_body = robot_model_->feet_pos_normal_stand_;
+    // Vec34 feet_pos_body = estimator_->getFeetPos2Body();
+    Vec34 feet_pos_body = robot_model_->feet_pos_normal_stand_;
     for (int i(0); i < 4; ++i) {
         feet_radius_(i) =
                 sqrt(pow(feet_pos_body(0, i), 2) + pow(feet_pos_body(1, i), 2));

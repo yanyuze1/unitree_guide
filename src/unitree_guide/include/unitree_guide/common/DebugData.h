@@ -15,6 +15,9 @@ struct BalanceCtrlDebugData {
     Vec3 force_error;
     Vec3 torque_error;
     Vec4 normal_force;
+    Vec4 contact;
+    Vec34 feet_pos_2_body;
+    RotMat rot_matrix;
     double min_constraint_margin;
 
     BalanceCtrlDebugData() : min_constraint_margin(0.0) {
@@ -28,6 +31,9 @@ struct BalanceCtrlDebugData {
         force_error.setZero();
         torque_error.setZero();
         normal_force.setZero();
+        contact.setZero();
+        rot_matrix.setZero();
+        feet_pos_2_body.setZero();
     }
 };
 

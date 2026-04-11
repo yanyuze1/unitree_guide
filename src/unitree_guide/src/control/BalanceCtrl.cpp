@@ -61,6 +61,12 @@ Vec34 BalanceCtrl::calF(const Vec3 &ddPcd, const Vec3 &dWbd, const RotMat &rot_m
     debug_data_.solved_torque = solved_wrench.tail(3);
     debug_data_.force_error = debug_data_.solved_force - debug_data_.bd_force;
     debug_data_.torque_error = debug_data_.solved_torque - debug_data_.bd_torque;
+    debug_data_.rot_matrix = rot_matrix;
+    debug_data_.feet_pos_2_body = feet_pos_2_body;
+    debug_data_.contact.setZero();
+    for (int i = 0; i < 4; ++i) {
+        debug_data_.contact(i) = static_cast<double>(contact[i]);
+    }
 
     debug_data_.normal_force.setZero();
     for (int i = 0; i < 4; ++i) {

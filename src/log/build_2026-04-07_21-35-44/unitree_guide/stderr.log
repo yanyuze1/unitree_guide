@@ -1,0 +1,72 @@
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/BalanceCtrl.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/control/Estimator.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateTrotting.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateSwingTest.cpp:10:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateFreeStand.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h: In constructor ‘AvgCov::AvgCov(unsigned int, std::string, bool, unsigned int, unsigned int, double)’:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:281:17: warning: ‘AvgCov::_valueName’ will be initialized after [-Wreorder]
+  281 |     std::string _valueName;
+      |                 ^~~~~~~~~~
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:275:10: warning:   ‘bool AvgCov::_avgOnly’ [-Wreorder]
+  275 |     bool _avgOnly;
+      |          ^~~~~~~~
+In file included from /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/src/FSM/StateBalanceTest.cpp:9:
+/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide/include/unitree_guide/common/mathTools.h:249:5: warning:   when initialized here [-Wreorder]
+  249 |     AvgCov(unsigned int size, std::string name, bool avgOnly=false, unsigned int showPeriod=1000, unsigned int waitCount=5000, double zoomFactor=10000)
+      |     ^~~~~~

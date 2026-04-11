@@ -1,0 +1,84 @@
+[30.034s] Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/controller_common -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[30.107s] -- The C compiler identification is GNU 11.4.0
+[30.154s] -- The CXX compiler identification is GNU 11.4.0
+[30.159s] -- Detecting C compiler ABI info
+[30.214s] -- Detecting C compiler ABI info - done
+[30.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[30.221s] -- Detecting C compile features
+[30.221s] -- Detecting C compile features - done
+[30.223s] -- Detecting CXX compiler ABI info
+[30.283s] -- Detecting CXX compiler ABI info - done
+[30.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[30.290s] -- Detecting CXX compile features
+[30.290s] -- Detecting CXX compile features - done
+[30.292s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[30.536s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[30.599s] -- Found hardware_interface: 2.52.2 (/opt/ros/humble/share/hardware_interface/cmake)
+[30.635s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[30.638s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[30.644s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[30.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[30.662s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[30.789s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[30.791s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[30.807s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[30.860s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[30.863s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[30.873s] -- Found FastRTPS: /opt/ros/humble/include  
+[30.875s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[30.881s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[30.889s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.898s] -- Looking for pthread.h
+[30.954s] -- Looking for pthread.h - found
+[30.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[31.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[31.017s] -- Found Threads: TRUE  
+[31.047s] -- Found control_input_msgs: 0.0.0 (/tmp/unitree_plotjuggler_install/share/control_input_msgs/cmake)
+[31.096s] -- Configuring done
+[31.103s] -- Generating done
+[31.106s] -- Build files have been written to: /tmp/unitree_plotjuggler_build/controller_common
+[31.113s] Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/controller_common -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[31.114s] Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/controller_common -- -j20 -l20
+[31.151s] [ 25%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/BaseFixedStand.cpp.o
+[31.153s] [ 75%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/StatePassive.cpp.o
+[31.153s] [ 75%] Building CXX object CMakeFiles/controller_common.dir/src/FSM/StateFixedDown.cpp.o
+[31.640s] [100%] Linking CXX shared library libcontroller_common.so
+[31.755s] [100%] Built target controller_common
+[31.762s] Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/controller_common -- -j20 -l20
+[31.763s] Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/controller_common
+[31.770s] -- Install configuration: "Release"
+[31.770s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common
+[31.770s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common
+[31.770s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/CtrlInterfaces.h
+[31.770s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common
+[31.770s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/mathTools.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/enumClass.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/common/mathTypes.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/StatePassive.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/StateFixedDown.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/BaseFixedStand.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/include/controller_common/controller_common/FSM/FSMState.h
+[31.771s] -- Installing: /tmp/unitree_plotjuggler_install/lib/libcontroller_common.so
+[31.771s] -- Set runtime path of "/tmp/unitree_plotjuggler_install/lib/libcontroller_common.so" to ""
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/library_path.sh
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/library_path.dsv
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/package_run_dependencies/controller_common
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/parent_prefix_path/controller_common
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/ament_prefix_path.sh
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/ament_prefix_path.dsv
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/path.sh
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/environment/path.dsv
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.bash
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.sh
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.zsh
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/local_setup.dsv
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/package.dsv
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/ament_index/resource_index/packages/controller_common
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/export_controller_commonExport.cmake
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/export_controller_commonExport-release.cmake
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/ament_cmake_export_targets-extras.cmake
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/controller_commonConfig.cmake
+[31.772s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/cmake/controller_commonConfig-version.cmake
+[31.773s] -- Installing: /tmp/unitree_plotjuggler_install/share/controller_common/package.xml
+[31.773s] Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/controller_common

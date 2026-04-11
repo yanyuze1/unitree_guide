@@ -1,0 +1,296 @@
+[0.068s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', '/home/huahua/project/Unitree_gudie_ros2/src', '--packages-up-to', 'unitree_guide', '--build-base', '/tmp/unitree_plotjuggler_build', '--install-base', '/tmp/unitree_plotjuggler_install', '--merge-install', '--event-handlers', 'console_direct+']
+[0.068s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='/tmp/unitree_plotjuggler_build', install_base='/tmp/unitree_plotjuggler_install', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=['console_direct+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/huahua/project/Unitree_gudie_ros2/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['unitree_guide'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x708bc6056470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x708bc61d7220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x708bc61d7220>>)
+[0.093s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.093s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.093s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.093s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.093s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.093s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/huahua/project/Unitree_gudie_ros2/src'
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'ignore'
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'ignore_ament_install'
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['colcon_pkg']
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'colcon_pkg'
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['colcon_meta']
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'colcon_meta'
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['ros']
+[0.093s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'ros'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['cmake', 'python']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'cmake'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'python'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extensions ['python_setup_py']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src) by extension 'python_setup_py'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extension 'ignore'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extension 'ignore_ament_install'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extensions ['colcon_pkg']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extension 'colcon_pkg'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extensions ['colcon_meta']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extension 'colcon_meta'
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extensions ['ros']
+[0.102s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs) by extension 'ros'
+[0.104s] colcon.colcon_core.package_identification DEBUG Package '/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs' with type 'ros.ament_cmake' and name 'control_input_msgs'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extension 'ignore'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extension 'ignore_ament_install'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extensions ['colcon_pkg']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extension 'colcon_pkg'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extensions ['colcon_meta']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extension 'colcon_meta'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extensions ['ros']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/controller_common) by extension 'ros'
+[0.104s] colcon.colcon_core.package_identification DEBUG Package '/home/huahua/project/Unitree_gudie_ros2/src/controller_common' with type 'ros.ament_cmake' and name 'controller_common'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extension 'ignore'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extension 'ignore_ament_install'
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extensions ['colcon_pkg']
+[0.104s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extension 'colcon_pkg'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extensions ['colcon_meta']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extension 'colcon_meta'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extensions ['ros']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/go2_description) by extension 'ros'
+[0.105s] colcon.colcon_core.package_identification DEBUG Package '/home/huahua/project/Unitree_gudie_ros2/src/go2_description' with type 'ros.ament_cmake' and name 'go2_description'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extension 'ignore'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extension 'ignore_ament_install'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extensions ['colcon_pkg']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extension 'colcon_pkg'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extensions ['colcon_meta']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extension 'colcon_meta'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extensions ['ros']
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco) by extension 'ros'
+[0.105s] colcon.colcon_core.package_identification DEBUG Package '/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco' with type 'ros.ament_cmake' and name 'hardware_unitree_mujoco'
+[0.105s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/log) by extension 'ignore'
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/log) ignored
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extensions ['ignore', 'ignore_ament_install']
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extension 'ignore'
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extension 'ignore_ament_install'
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extensions ['colcon_pkg']
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extension 'colcon_pkg'
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extensions ['colcon_meta']
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extension 'colcon_meta'
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extensions ['ros']
+[0.106s] colcon.colcon_core.package_identification Level 1 _identify(/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide) by extension 'ros'
+[0.106s] colcon.colcon_core.package_identification DEBUG Package '/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide' with type 'ros.ament_cmake' and name 'unitree_guide'
+[0.106s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.117s] colcon.colcon_core.package_selection INFO Skipping package 'hardware_unitree_mujoco' in '/home/huahua/project/Unitree_gudie_ros2/src/hardware_unitree_mujoco'
+[0.117s] colcon.colcon_core.package_selection INFO Skipping package 'go2_description' in '/home/huahua/project/Unitree_gudie_ros2/src/go2_description'
+[0.117s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[0.117s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[0.119s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 474 installed packages in /opt/ros/humble
+[0.120s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[0.153s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_target' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'control_input_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] colcon.colcon_core.verb DEBUG Building package 'control_input_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/tmp/unitree_plotjuggler_build/control_input_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/tmp/unitree_plotjuggler_install', 'merge_install': True, 'path': '/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_target' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'controller_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] colcon.colcon_core.verb DEBUG Building package 'controller_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/tmp/unitree_plotjuggler_build/controller_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/tmp/unitree_plotjuggler_install', 'merge_install': True, 'path': '/home/huahua/project/Unitree_gudie_ros2/src/controller_common', 'symlink_install': False, 'test_result_base': None}
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_target' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_clean_cache' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_clean_first' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'cmake_force_configure' from command line to 'False'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'ament_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'catkin_cmake_args' from command line to 'None'
+[0.154s] colcon.colcon_core.verb Level 5 set package 'unitree_guide' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.154s] colcon.colcon_core.verb DEBUG Building package 'unitree_guide' with the following arguments: {'ament_cmake_args': None, 'build_base': '/tmp/unitree_plotjuggler_build/unitree_guide', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/tmp/unitree_plotjuggler_install', 'merge_install': True, 'path': '/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide', 'symlink_install': False, 'test_result_base': None}
+[0.154s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[0.155s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[0.155s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs' with build type 'ament_cmake'
+[0.155s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs'
+[0.156s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.156s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.156s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[0.162s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/control_input_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[1.319s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/control_input_msgs -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[1.320s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/control_input_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/control_input_msgs -- -j20 -l20
+[2.458s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/control_input_msgs -- -j20 -l20
+[2.466s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/control_input_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/control_input_msgs
+[2.505s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(control_input_msgs)
+[2.506s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/control_input_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/control_input_msgs
+[2.507s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[2.508s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[2.508s] colcon.colcon_core.shell Level 1 create_environment_hook('control_input_msgs', 'cmake_prefix_path')
+[2.508s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.ps1'
+[2.508s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.dsv'
+[2.509s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.sh'
+[2.509s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[2.509s] colcon.colcon_core.shell Level 1 create_environment_hook('control_input_msgs', 'ld_library_path_lib')
+[2.510s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.ps1'
+[2.510s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.dsv'
+[2.510s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.sh'
+[2.510s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[2.510s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/control_input_msgs.pc'
+[2.511s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[2.511s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[2.511s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.ps1'
+[2.511s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.dsv'
+[2.512s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.sh'
+[2.512s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.bash'
+[2.512s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.zsh'
+[2.513s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/control_input_msgs)
+[2.513s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(control_input_msgs)
+[2.513s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[2.514s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[2.514s] colcon.colcon_core.shell Level 1 create_environment_hook('control_input_msgs', 'cmake_prefix_path')
+[2.514s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.ps1'
+[2.514s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.dsv'
+[2.514s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/cmake_prefix_path.sh'
+[2.515s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[2.515s] colcon.colcon_core.shell Level 1 create_environment_hook('control_input_msgs', 'ld_library_path_lib')
+[2.515s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.ps1'
+[2.515s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.dsv'
+[2.515s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/control_input_msgs/hook/ld_library_path_lib.sh'
+[2.515s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[2.515s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/control_input_msgs.pc'
+[2.515s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[2.516s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[2.516s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.ps1'
+[2.516s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.dsv'
+[2.516s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.sh'
+[2.517s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.bash'
+[2.517s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/control_input_msgs/package.zsh'
+[2.517s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/control_input_msgs)
+[2.517s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/huahua/project/Unitree_gudie_ros2/src/controller_common' with build type 'ament_cmake'
+[2.517s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/huahua/project/Unitree_gudie_ros2/src/controller_common'
+[2.517s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.518s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[32.553s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/controller_common -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[33.631s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/controller_common -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[33.632s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/controller_common -- -j20 -l20
+[34.281s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/controller_common -- -j20 -l20
+[34.281s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/controller_common': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/controller_common
+[34.291s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(controller_common)
+[34.291s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[34.291s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/controller_common' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/controller_common
+[34.291s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[34.292s] colcon.colcon_core.shell Level 1 create_environment_hook('controller_common', 'cmake_prefix_path')
+[34.292s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.ps1'
+[34.292s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.dsv'
+[34.293s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.sh'
+[34.293s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[34.293s] colcon.colcon_core.shell Level 1 create_environment_hook('controller_common', 'ld_library_path_lib')
+[34.293s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.ps1'
+[34.294s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.dsv'
+[34.294s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.sh'
+[34.294s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[34.294s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/controller_common.pc'
+[34.294s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[34.294s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[34.295s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.ps1'
+[34.295s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/package.dsv'
+[34.295s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.sh'
+[34.295s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.bash'
+[34.295s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.zsh'
+[34.295s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/controller_common)
+[34.296s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(controller_common)
+[34.296s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[34.296s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[34.296s] colcon.colcon_core.shell Level 1 create_environment_hook('controller_common', 'cmake_prefix_path')
+[34.296s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.ps1'
+[34.297s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.dsv'
+[34.297s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/cmake_prefix_path.sh'
+[34.297s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[34.297s] colcon.colcon_core.shell Level 1 create_environment_hook('controller_common', 'ld_library_path_lib')
+[34.297s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.ps1'
+[34.297s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.dsv'
+[34.297s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/controller_common/hook/ld_library_path_lib.sh'
+[34.298s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[34.298s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/controller_common.pc'
+[34.298s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[34.298s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[34.298s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.ps1'
+[34.298s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/controller_common/package.dsv'
+[34.299s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.sh'
+[34.299s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.bash'
+[34.299s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/controller_common/package.zsh'
+[34.299s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/controller_common)
+[34.299s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide' with build type 'ament_cmake'
+[34.299s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/huahua/project/Unitree_gudie_ros2/src/unitree_guide'
+[34.300s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.300s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[34.308s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[35.409s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/huahua/project/Unitree_gudie_ros2/src/unitree_guide -DCMAKE_INSTALL_PREFIX=/tmp/unitree_plotjuggler_install
+[35.410s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/unitree_guide -- -j20 -l20
+[48.465s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /tmp/unitree_plotjuggler_build/unitree_guide -- -j20 -l20
+[48.466s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/tmp/unitree_plotjuggler_build/unitree_guide': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/unitree_guide
+[48.478s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(unitree_guide)
+[48.479s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[48.479s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/tmp/unitree_plotjuggler_build/unitree_guide' returned '0': AMENT_PREFIX_PATH=/tmp/unitree_plotjuggler_install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/tmp/unitree_plotjuggler_install:/opt/openrobots:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch:/opt/ros/humble LD_LIBRARY_PATH=/tmp/unitree_plotjuggler_install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/openrobots/lib:/home/huahua/project/Quadruped_ROS2_Control/libtorch-shared-with-deps-2.10.0+cu128/libtorch/lib:/usr/local/cuda-12.8/lib64 PYTHONPATH=/tmp/unitree_plotjuggler_install/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /tmp/unitree_plotjuggler_build/unitree_guide
+[48.480s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[48.480s] colcon.colcon_core.shell Level 1 create_environment_hook('unitree_guide', 'cmake_prefix_path')
+[48.481s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.ps1'
+[48.482s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.dsv'
+[48.482s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.sh'
+[48.483s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[48.483s] colcon.colcon_core.shell Level 1 create_environment_hook('unitree_guide', 'ld_library_path_lib')
+[48.483s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.ps1'
+[48.484s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.dsv'
+[48.484s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.sh'
+[48.484s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[48.484s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/unitree_guide.pc'
+[48.484s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[48.485s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[48.485s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.ps1'
+[48.486s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.dsv'
+[48.486s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.sh'
+[48.486s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.bash'
+[48.486s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.zsh'
+[48.486s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/unitree_guide)
+[48.487s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(unitree_guide)
+[48.487s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake module files
+[48.487s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install' for CMake config files
+[48.487s] colcon.colcon_core.shell Level 1 create_environment_hook('unitree_guide', 'cmake_prefix_path')
+[48.487s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.ps1'
+[48.487s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.dsv'
+[48.488s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/cmake_prefix_path.sh'
+[48.488s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib'
+[48.488s] colcon.colcon_core.shell Level 1 create_environment_hook('unitree_guide', 'ld_library_path_lib')
+[48.488s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.ps1'
+[48.488s] colcon.colcon_core.shell INFO Creating environment descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.dsv'
+[48.488s] colcon.colcon_core.shell INFO Creating environment hook '/tmp/unitree_plotjuggler_install/share/unitree_guide/hook/ld_library_path_lib.sh'
+[48.489s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[48.489s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/pkgconfig/unitree_guide.pc'
+[48.489s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/lib/python3.10/site-packages'
+[48.489s] colcon.colcon_core.environment Level 1 checking '/tmp/unitree_plotjuggler_install/bin'
+[48.489s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.ps1'
+[48.489s] colcon.colcon_core.shell INFO Creating package descriptor '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.dsv'
+[48.490s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.sh'
+[48.490s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.bash'
+[48.490s] colcon.colcon_core.shell INFO Creating package script '/tmp/unitree_plotjuggler_install/share/unitree_guide/package.zsh'
+[48.490s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/tmp/unitree_plotjuggler_install/share/colcon-core/packages/unitree_guide)
+[48.490s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[48.491s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[48.491s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[48.491s] colcon.colcon_core.event_reactor DEBUG joining thread
+[48.494s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.494s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.494s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[48.495s] colcon.colcon_notification.desktop_notification.notify2 DEBUG Failed to initialize notify2: org.freedesktop.DBus.Error.AccessDenied: Failed to connect to socket /run/user/1000/bus: Operation not permitted
+[48.495s] colcon.colcon_core.event_reactor DEBUG joined thread
+[48.495s] colcon.colcon_core.shell INFO Creating prefix script '/tmp/unitree_plotjuggler_install/local_setup.ps1'
+[48.495s] colcon.colcon_core.shell INFO Creating prefix util module '/tmp/unitree_plotjuggler_install/_local_setup_util_ps1.py'
+[48.496s] colcon.colcon_core.shell INFO Creating prefix chain script '/tmp/unitree_plotjuggler_install/setup.ps1'
+[48.496s] colcon.colcon_core.shell INFO Creating prefix script '/tmp/unitree_plotjuggler_install/local_setup.sh'
+[48.497s] colcon.colcon_core.shell INFO Creating prefix util module '/tmp/unitree_plotjuggler_install/_local_setup_util_sh.py'
+[48.497s] colcon.colcon_core.shell INFO Creating prefix chain script '/tmp/unitree_plotjuggler_install/setup.sh'
+[48.497s] colcon.colcon_core.shell INFO Creating prefix script '/tmp/unitree_plotjuggler_install/local_setup.bash'
+[48.498s] colcon.colcon_core.shell INFO Creating prefix chain script '/tmp/unitree_plotjuggler_install/setup.bash'
+[48.498s] colcon.colcon_core.shell INFO Creating prefix script '/tmp/unitree_plotjuggler_install/local_setup.zsh'
+[48.498s] colcon.colcon_core.shell INFO Creating prefix chain script '/tmp/unitree_plotjuggler_install/setup.zsh'

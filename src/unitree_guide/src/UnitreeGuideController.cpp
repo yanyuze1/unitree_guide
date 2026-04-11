@@ -67,6 +67,19 @@ std_msgs::msg::Float64MultiArray makeArrayMsg(const Vec34 &m)
     }
     return msg;
 }
+
+std_msgs::msg::Float64MultiArray makeArrayMsg(const RotMat &m)
+{
+    std_msgs::msg::Float64MultiArray msg;
+    msg.data.resize(9);
+    int k = 0;
+    for (int i = 0; i < 3; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            msg.data[static_cast<size_t>(k++)] = m(i, j);
+        }
+    }
+    return msg;
+}
 }
 
 namespace unitree_guide_controller
@@ -243,7 +256,13 @@ namespace unitree_guide_controller
             make_vec3_pub(balance_force_error_pub_, "/unitree_guide/debug/balance/force_error");
             make_vec3_pub(balance_torque_error_pub_, "/unitree_guide/debug/balance/torque_error");
             make_array_pub(balance_normal_force_pub_, "/unitree_guide/debug/balance/normal_force");
-            make_scalar_pub(balance_min_constraint_margin_pub_, "/unitree_guide/debug/balance/min_constraint_margin");
+            make_scalar_pub(
+                balance_min_constraint_margin_pub_,
+                "/unitree_guide/debug/balance/min_constraint_margin");
+            make_array_pub(balance_contact_pub_, "/unitree_guide/debug/balance/contact");
+            make_array_pub(balance_rot_matrix_pub_, "/unitree_guide/debug/balance/rot_matrix");
+            make_array_pub(balance_feet_pos_2_body_pub_, "/unitree_guide/debug/balance/feet_pos_2_body");
+
 
             make_vec3_pub(estimator_position_pub_, "/unitree_guide/debug/estimator/position");
             make_vec3_pub(estimator_velocity_pub_, "/unitree_guide/debug/estimator/velocity");
@@ -255,8 +274,12 @@ namespace unitree_guide_controller
             make_scalar_pub(estimator_dyaw_pub_, "/unitree_guide/debug/estimator/dyaw");
             make_array_pub(estimator_contact_pub_, "/unitree_guide/debug/estimator/contact");
             make_array_pub(estimator_phase_pub_, "/unitree_guide/debug/estimator/phase");
-            make_scalar_pub(estimator_pos_meas_residual_norm_pub_, "/unitree_guide/debug/estimator/pos_meas_residual_norm");
-            make_scalar_pub(estimator_vel_meas_residual_norm_pub_, "/unitree_guide/debug/estimator/vel_meas_residual_norm");
+            make_scalar_pub(
+                estimator_pos_meas_residual_norm_pub_,
+                "/unitree_guide/debug/estimator/pos_meas_residual_norm");
+            make_scalar_pub(
+                estimator_vel_meas_residual_norm_pub_,
+                "/unitree_guide/debug/estimator/vel_meas_residual_norm");
 
             make_vec3_pub(trotting_v_cmd_body_pub_, "/unitree_guide/debug/trotting/v_cmd_body");
             make_vec3_pub(trotting_vel_target_pub_, "/unitree_guide/debug/trotting/vel_target");
@@ -270,12 +293,24 @@ namespace unitree_guide_controller
             make_vec3_pub(trotting_d_wbd_pub_, "/unitree_guide/debug/trotting/d_wbd");
             make_vec3_pub(trotting_gyro_global_pub_, "/unitree_guide/debug/trotting/gyro_global");
 
-            make_array_pub(trotting_pos_feet_global_goal_pub_, "/unitree_guide/debug/trotting/pos_feet_global_goal");
-            make_array_pub(trotting_vel_feet_global_goal_pub_, "/unitree_guide/debug/trotting/vel_feet_global_goal");
-            make_array_pub(trotting_pos_feet_global_pub_, "/unitree_guide/debug/trotting/pos_feet_global");
-            make_array_pub(trotting_vel_feet_global_pub_, "/unitree_guide/debug/trotting/vel_feet_global");
-            make_array_pub(trotting_force_feet_global_pub_, "/unitree_guide/debug/trotting/force_feet_global");
-            make_array_pub(trotting_force_feet_body_pub_, "/unitree_guide/debug/trotting/force_feet_body");
+            make_array_pub(
+                trotting_pos_feet_global_goal_pub_,
+                "/unitree_guide/debug/trotting/pos_feet_global_goal");
+            make_array_pub(
+                trotting_vel_feet_global_goal_pub_,
+                "/unitree_guide/debug/trotting/vel_feet_global_goal");
+            make_array_pub(
+                trotting_pos_feet_global_pub_,
+                "/unitree_guide/debug/trotting/pos_feet_global");
+            make_array_pub(
+                trotting_vel_feet_global_pub_,
+                "/unitree_guide/debug/trotting/vel_feet_global");
+            make_array_pub(
+                trotting_force_feet_global_pub_,
+                "/unitree_guide/debug/trotting/force_feet_global");
+            make_array_pub(
+                trotting_force_feet_body_pub_,
+                "/unitree_guide/debug/trotting/force_feet_body");
 
             make_array_pub(joint_q_goal_pub_, "/unitree_guide/debug/joint/q_goal");
             make_array_pub(joint_qd_goal_pub_, "/unitree_guide/debug/joint/qd_goal");
@@ -448,6 +483,12 @@ namespace unitree_guide_controller
         pub_vec3(balance_torque_error_pub_, "world", bal.torque_error);
         pub_v4(balance_normal_force_pub_, bal.normal_force);
         pub_scalar(balance_min_constraint_margin_pub_, bal.min_constraint_margin);
+        pub_v4(balance_contact_pub_, bal.contact);
+        if (balance_rot_matrix_pub_) {
+            balance_rot_matrix_pub_->publish(makeArrayMsg(bal.rot_matrix));
+        }
+        pub_v34(balance_feet_pos_2_body_pub_, bal.feet_pos_2_body);
+
 
         pub_vec3(estimator_position_pub_, "world", est.position);
         pub_vec3(estimator_velocity_pub_, "world", est.velocity);
