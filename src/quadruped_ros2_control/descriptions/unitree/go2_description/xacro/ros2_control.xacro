@@ -5,9 +5,9 @@
 
 		<hardware>
 			<plugin>hardware_unitree_mujoco/HardwareUnitree</plugin>
-			<!-- <param name="domain">0</param>
+			<param name="domain">0</param>
 			<param name="network_interface">enp109s0</param>
-			<param name="show_foot_force">true</param> -->
+			<param name="show_foot_force">true</param>
 		</hardware>
 
 		<joint name="FR_hip_joint">

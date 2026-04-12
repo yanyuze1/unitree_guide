@@ -33,10 +33,7 @@ StateTrotting::StateTrotting(CtrlInterfaces &ctrl_interfaces,
 
 void StateTrotting::enter() {
     pcd_ = estimator_->getPosition();
-    pcd_(2) = -estimator_->getFeetPos2Body()(2, 0);export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
-export CYCLONEDDS_URI='<CycloneDDS><Domain><General><Interfaces>
-                            <NetworkInterface name="lo" priority="default" multicast="default" />
-                        </Interfaces></General></Domain></CycloneDDS>'
+    pcd_(2) = -estimator_->getFeetPos2Body()(2, 0);
     v_cmd_body_.setZero();
     yaw_cmd_ = estimator_->getYaw();
     Rd = rotz(yaw_cmd_);
