@@ -28,6 +28,12 @@ If you are also exploring quadruped control, simulation, and controller tuning, 
 
 This is the simulation result after the project modifications.
 
+### Real Results
+
+![alt text](images/bb601e9e3a84df7402d91245d37eb7bd.gif)
+
+This is the real result after the project modifications，but it is not perfect.
+
 ## Project Modifications
 Without changing the overall code structure, this project modifies the Unitree Guide controller part. When running simulation with the Unitree Guide controller, two issues appear:
 
