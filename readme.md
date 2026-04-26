@@ -21,6 +21,8 @@
 
 ## 前言
 如果你也在折腾四足机器人控制、仿真和调参，希望这份记录能帮你更快进入状态，也少走一些弯路。感谢项目[Quadruped ROS2 Control](https://github.com/legubiao/quadruped_ros2_control/tree/humble)提供了扎实的基础，本项目正是在它之上继续修改与整理而来，当前使用的是 `Unitree_guide` 分支。后面的内容会围绕真实调试过程中遇到的问题与解决思路展开，希望能让你带着兴趣一路看下去，也能在需要时真正派上用场。
+## 项目结构图
+![alt text](images/unitree_guide.png)
 ## 修改后效果
 ### 仿真效果
 ![alt text](<images/2026-04-11 14-50-38.gif>)
