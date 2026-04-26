@@ -23,7 +23,7 @@ Before diving further into the current project, it is worth introducing an impor
 If you are also exploring quadruped control, simulation, and controller tuning, I hope this write-up helps you get oriented faster and avoid a few unnecessary detours. Special thanks to the [Quadruped ROS2 Control](https://github.com/legubiao/quadruped_ros2_control/tree/humble) project for providing such a solid foundation. This project is built and further refined on top of it, and the current work is based on the `Unitree_guide` branch. The sections below follow the real problems encountered during debugging and the ideas used to solve them, with the hope that the reading experience stays both useful and enjoyable all the way through.
 
 ## Project Structure Chart
-
+![alt text](images/Unitree_gudie_EN.png)
 ## Results After Modification
 ### Simulation Results
 ![alt text](<images/2026-04-11 14-50-38.gif>)
